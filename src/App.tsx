@@ -4,7 +4,6 @@ import { useState } from "react";
 
 export default function App() {
   const [isAdvanced, setIsAdvanced] = useState<boolean>(true);
-  console.log(isAdvanced);
 
   const {
     register,
